@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+
+
+video {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 , h2 {
+  color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Recuadro{
+  color: antiquewhite;
+    margin: 5px;
+    font-size: 23px;
+    border: solid 3px;
+    height: 600px;
+    width: 650px;
+    padding: 0 5px 5px 8px;
+    border-radius: 26px;
+}
+
+.Reproducciones2 {
+  width: 600px;
+    padding: 15px;
+    height: 60px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+
+.link {
+  font-family: 'Alkatra', cursive;
+  font-size: 20px;
+  color: saddlebrown;
+}
+
+
+audio {
+  width: 350px;
+  height: 50px;
+  cursor: pointer;
+}
+
+audio::-webkit-media-controls-panel:hover {
+  background-color: brown;
+}
+
+
+@media (max-width: 800px) {
+  .Recuadro{
+    font-size: 25px;
+    width: 540px;
+    height: 650px;
+    
+  }
+
+  .Reproducciones2{
+    width: 500px;
+    padding: 15px;
+    height: 60px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .link{
+    font-family: 'Alkatra', cursive;
+    font-size: 15px;
+    color: saddlebrown;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
